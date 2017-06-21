@@ -1,0 +1,284 @@
+<style>
+.analyticsdiv{
+    padding-bottom: 30px;
+    
+        padding-top: 50px;
+}
+    .analyticsimage{
+            height: 208px;
+    position: relative;
+    margin-left: 25%;
+    }
+    .analyticsh3{
+        text-align:center;
+            padding-top: -14px;
+    padding-bottom: 6px;
+    }
+    
+    /*feature 2*/
+@media (min-width: 600px) {
+  .feature2image1 {
+    background: url(<%= asset_path('analytics1.png') %>) no-repeat;
+    background-clip: padding-box;
+    background-size: contain;
+    position: relative;
+    height: 354px;
+    width: 612.5px;
+    margin: 9.75rem -3rem 0 auto;
+    box-shadow: 0 12px 3px -7px rgba(0,0,0,.1);
+  }
+  
+  .feature2image2 {
+    background: url(<%= asset_path('analytics2.jpg') %>) no-repeat;
+    margin-top: 20px;
+    background-clip: padding-box;
+    background-size: contain;
+    position: relative;
+    height: 354px;
+    width: 612.5px;
+  }
+  
+  .feature2image3 {
+    background: url(<%= asset_path('analytics3.png') %>) no-repeat;
+    background-clip: padding-box;
+    background-size: contain;
+    position: relative;
+    height: 354px;
+    width: 612.5px;
+    margin: 9.75rem -3rem 0 auto;
+  }
+  
+  .padding {
+    padding-top: 150px;
+  }
+}
+
+  .signup_btn {
+    background-color: transparent;
+    border-color: white;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 2px solid;
+    padding:15px 42px 15px;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all .5s ease-out;
+         -o-transition: all .5s ease-out;
+            transition: all .5s ease-out;
+  }
+  .signup_btn:hover {
+    border-color: #09c;
+    background-color: #09c;
+    color: #fff;
+    text-decoration: none;
+  }
+  .btn:hover {
+    border-color: #09c;
+    background-color: #09c;
+  }
+
+@media (max-width: 599px) {
+  .feature2image1 {
+    background: url(<%= asset_path('analytics1.png') %>) no-repeat;
+    background-clip: padding-box;
+    background-size: contain;
+    position: relative;
+    height: 173px;
+    width: 300px;
+    box-shadow: 0 12px 3px -7px rgba(0,0,0,.1);
+  }
+  
+  .feature2image2 {
+    background: url(<%= asset_path('analytics2.jpg') %>) no-repeat;
+    background-clip: padding-box;
+    background-size: contain;
+    position: relative;
+    height: 239px;
+    width: 300px;
+  }
+  
+  .feature2image3 {
+    background: url(<%= asset_path('analytics3.png') %>) no-repeat;
+    background-clip: padding-box;
+    background-size: contain;
+    position: relative;
+    height: 173px;
+    width: 300px;
+  }
+  
+  .padding {
+    padding-top: 50px;
+  }
+}
+</style> <!--analytics page-->
+
+<head>
+  <title>ThinkRTC | Analytics</title>
+</head>
+<meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+
+
+<!-- Home -->
+<main id="home" class="masthead-video masked">
+  <video class="video">
+    <source src="https://d3hjue7omxs01q.cloudfront.net/Video/homepage/background-header-v1.mp4" type="video/mp4">
+    <source src="video/video.webm" type="video/webm">
+  </video>
+  <div class="opener rel-1" style="background: -webkit-linear-gradient(-70deg,rgba(0, 161, 255, 0.53) 35%,rgba(0, 3, 255, 0.21) 70%,rgba(0, 43, 255, 0.32) 90%);">
+    <div class="container">
+      <div class="row">
+        <center>
+        <div class="lead col-lg-6" style="float:none">
+          <h1 class="wow fadeInDown" style="color:white">Take action to accelerate your growth</h1>
+          <p class="lead-text">Deeply understand every user's journey with instant insights for everyone on mobile and web.</p>
+        </div>
+        <br>
+        <div class="lead-controls">
+          <div class="row-fields row">
+              <a href="/sign_up" class="signup_btn hvr-grow">try it now</a>
+          </div>
+        </div>
+        </center>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Content -->
+<div class="content">
+    
+  <!--Main features-->
+  <section class="features section"> 
+    <div class="container" >
+      <div class="col-md-12" style="padding-bottom:100px"> 
+        <center>
+          <h1 style="padding-bottom:0px; margin-bottom:5px; color:black">ThinkRTC Analytics</h1>
+        <h4 style="width:50%"> Our analytics answers your questions about how users engage with what you build. Scalable. Instant. Simple to implement</h4>
+        </center>
+      </div>
+      <div class="col-sm-4 analyticsdiv">
+        <div class="analyticsimage">
+          <img style=" top: 8px;" src="https://d2dsqj2q4cgk8n.cloudfront.net/assets/website/feature-1@2x-21522336f4fee743933b52dc5bb601d7.png" alt="thinkrtc analytics" width="176" height="172">
+        </div>
+        <h3 class="analyticsh3">Understand every user's journey</h3>
+        <h4> Follow the digital footprint of every user across your website. Know precisely what happens inside your of it.</h4>
+      </div>
+      <div class="col-sm-4 analyticsdiv">
+        <div class="analyticsimage">
+          <img style=" top: 8px;" src="https://d2dsqj2q4cgk8n.cloudfront.net/assets/website/feature-3@2x-0ff559d3b835cef70b980571ce091102.png" alt="thinkrtc analytics"  height="172">
+        </div>
+        <h3 class="analyticsh3">Drive retention </h3>
+        <h4> Understand what leads to user adoption, engagement and churn. Be proactive to drive retention.</h4>
+      </div>
+      <div class="col-sm-4 analyticsdiv">
+        <div class="analyticsimage" style="margin-left:0px">
+          <img style=" top: 8px; " src="https://d2dsqj2q4cgk8n.cloudfront.net/assets/website/feature-computer@2x-e26137f047e904958ea20b9c1128c653.png" alt="thinkrtc analytics" height="172">
+        </div>
+        <h3 class="analyticsh3">Implementation</h3>
+        <h4> Leave the technical part to our implementation partners and focus on growing your business.</h4>
+      </div>
+    </div>
+  </section>
+    
+  <!--section 1-->
+  <section style="background: -webkit-linear-gradient(-70deg,rgba(0, 161, 255, 0.92) 35%,rgba(0, 3, 255, 0.36) 70%,rgba(0, 43, 255, 0.55) 90%); padding-bottom: 50px">
+    <div class="container">
+      <div class="section2div">
+        <div class="col-md-6 padding">
+          <h2 style="color:white">Engage with your visitors</h2>
+          <p style="color:white"> You can now track the visitors visiting your web pages from around the world. You get a detailed & summarized report of the visitors’ information and also get to know the back-links, the browsed pages and other useful information.. </p>
+          <br>
+          <!--<p style="color:white"> Build robust private talent pools to engage the best talent. Advanced search, smart tags, and detailed reviews help find the perfect match. </p>-->
+        </div>
+        <div class="col-md=6">
+          <br>
+          <center><div class="feature2image1"></div></center>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <!--section 2-->
+  <section class="features section">
+    <div class="container " style="padding-top: 10px; padding-bottom:50px;">
+      <div class="section2div">
+        <div class="col-md-6">
+          <center><div class="feature2image2"></div></center>
+        </div>
+        <div class="col-md-6" style="padding-left: 3%">
+          <h2> Drive Customer Experience & Growth</h2>
+          <p> There are many metrics that measure engagement but  views are not one of them. Make your product better by measuring actions, instead of views. </p>
+          <br>
+          <p> ThinkRTC gives you the ability to easily measure what people are doing in on web and mobile. </p>
+          <br>
+              <li>Check bounce and click through rates </li>
+              <br>
+              <li>Create customize funnels to understand what users are doing</li>
+              <br>
+              <li>Autotrack For Your Website. Collect everything and track anything</li>
+              <br>
+              <li>Visualize your data in different ways with customizable settings</li>
+          </li>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--section 3-->
+  <section class="features " style="    background: -webkit-linear-gradient(-70deg,rgba(0, 43, 255, 0.55) 35%,rgba(0, 3, 255, 0.36) 60%,rgba(0, 161, 255, 0.92) 80%);">
+      <div class="container" style="padding-bottom: 50px">
+        <div class="section2div">
+          <div class="col-md-6 padding">
+            <h2 style="color:white"> Track every single step </h2>
+            <p style="color:white">You can check your click through rate with ThinkRTC analytics. We provide full graphical information of your click and bounce rate. </p>
+            <br>
+            <p style="color:white"> Build robust private talent pools to engage the best talent. Advanced search, smart tags, and detailed reviews help find the perfect match. </p>
+          </div>
+          <div class="col-md=6">
+            <br>
+            <center><div class="feature2image3"></div></center>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<%= render 'layouts/footer' %>
+</div>
+
+<!-- Modal Signup -->
+<div id="request" class="modal fade" role="dialog">
+  <div class="modal-dialog modallogin" style="width: 325px">
+    <div class="modal-content-login" >
+      <div class="modal-header">
+        <span class="close-trtc" style="color: black" data-dismiss="modal" aria-label="Close">&times;</span>
+        <img src="<%= asset_path 'thinkrtclogo.png'%>" alt="thinkrtc" style="height:200px;">
+      </div>
+      <div class="modal-body text-center" >
+        <%= form_for(@user, url: registrations_path) do |f| %>
+          <%= @user.errors.full_messages.join('. ') %>
+          <div class="field">
+            <%= f.email_field :email, :placeholder => "Email", :class => "loginfield", autofocus: true %>
+          </div>
+          <div class="field">
+            <%= f.password_field :password, :placeholder => "Password", :class => "loginfield", autocomplete: "off" %>
+          </div>
+          <div class="field">
+            <%= f.password_field :password_confirmation, :placeholder => "Confirm Password", :class => "loginfield", autocomplete: "off" %>
+          </div>
+          <div class="actions" style="margin-top:60px">
+            <%= submit_tag "Sign up", :class => "signupsubmit" %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
